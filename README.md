@@ -12,6 +12,7 @@ Requirements
 ------------
 * LaTeX
 * GNU Make (Optional)
+* Python 3 (Optional)
 
 Installation
 ------------
@@ -41,3 +42,12 @@ Usage
 To add questions, modify `tex/deck.tex`. For illustrative purposes examples of
 questions and answers are already included, taken directly from the aforecited
 document. 
+
+The included Python script `genschedule.py` can be used for creating the
+schedule book. E.g.,
+```
+python3 genschedule.py 2018 1 12
+```
+creates pages for 12 months starting from the first month of 2018. That is to
+say, for January - December 2018. Note that this script will overwrite
+`tex/calendar.tex`.
