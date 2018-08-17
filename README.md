@@ -34,7 +34,7 @@ Next, navigate to the project root and run a build:
 cd supermemo0
 make all
 ```
-This should create `databook.pdf` in the project root.
+This should create `databook.pdf` and `schedule.pdf` in the project root.
 
 Usage
 -----
