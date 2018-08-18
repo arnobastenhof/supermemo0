@@ -3,9 +3,10 @@ LaTeX Templates for SuperMemo-0
 
 Introduction
 ------------
-The current repository contains LaTeX templates for SuperMemo data- and
-schedule books, as described in "Using SuperMemo without a computer" by Dr.
-Piotr Wozniak at https://www.supermemo.com/articles/paper.htm (also known as
+The current repository provides LaTeX templates for SuperMemo data- and
+schedule books for the purpose of producing printable worksheets. Their
+contents are explained in "Using SuperMemo without a computer" by Dr.  Piotr
+Wozniak at https://www.supermemo.com/articles/paper.htm (also known as
 algorithm SM-0).
 
 Requirements
