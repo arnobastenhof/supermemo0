@@ -36,7 +36,10 @@ Next, navigate to the project root and run a build:
 cd supermemo0
 make all
 ```
-This should create `databook.pdf` and `schedule.pdf` in the project root.
+This should create `databook.pdf`, `databook_side.pdf` and `schedule.pdf` in
+the project root. The difference between `databook.pdf` and `databook_side.pdf`
+is that the latter produces sideways tables, providing more space for the
+question- and answer fields.
 
 Usage
 -----

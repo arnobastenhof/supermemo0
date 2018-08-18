@@ -1,0 +1,33 @@
+\documentclass{article}
+
+\usepackage{fullpage}
+\usepackage{multirow}
+\usepackage{rotating}
+
+\newcommand\C[1]{p{\dimexpr #1\linewidth-2\tabcolsep}}
+\newcommand\T{\rule{0pt}{2.6ex}}       % Top strut
+\newcommand\B{\rule[-1.2ex]{0pt}{0pt}} % Bottom strut
+
+% Headers, rows and footers
+\newcommand\header{
+  \begin{sidewaystable}\begin{tabular}
+    {|\C{0.34}|\C{0.34}|\C{0.03}|\C{0.03}|\C{0.03}
+     |\C{0.03}|\C{0.03}|\C{0.04}|\C{0.08}|\C{0.03}|} \hline
+  \T\B \multirow{2}{*}{\textbf{Question Field}} &
+  \multirow{2}{*}{\textbf{Answer Field}} &
+  \multicolumn{5}{|l|}{\textbf{Repetition Scores}} &
+  \multicolumn{3}{|l|}{\textbf{Repetitions}} \\ \cline{3-10}
+  \T\B & & 1 & 2 & 3 & 4 & 5 & No & Dat & U \\
+}
+\newcommand\q[3]{\hline\T\B #2 & #3 & & & & & & #1 & & \\}
+\newcommand\footer{\hline\end{tabular}\end{sidewaystable}}
+
+\begin{document}
+
+\title{SuperMemo Databook}
+\date{\today}
+\maketitle
+
+\include{deck}
+
+\end{document}

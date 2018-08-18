@@ -11,7 +11,7 @@ AUX := $(tex/*.aux)
 LOG := $(tex/*.log)
 TOC := $(tex/*.toc)
 DVI := $(tex/*.dvi)
-PDF := databook.pdf schedule.pdf
+PDF := databook_side.pdf databook.pdf schedule.pdf
 
 # Phony targets
 
