@@ -43,7 +43,7 @@ def main():
       out.write(' ')
 
       # Output year
-      year = args.year + (i // 12)
+      year = args.year + ((args.month + i - 1) // 12)
       out.write(str(year))
       out.write('}\\\\ \\hline\n')
 
